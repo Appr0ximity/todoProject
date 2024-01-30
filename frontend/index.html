@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+</head>
+<body style="background-color: #474357;">
+    <h1 style="display: flex; justify-content: center; color: white;">Create your Keep Note</h1>
+    <div style="display: flex; justify-content: center; padding: 30px 0px 30px;">
+        <input type="text" id="title" placeholder="Title" required style="width: 300px; height: 30px; border: 2px solid black; border-radius: 8px;">
+    </div>
+    <div style="display: flex; justify-content: center; padding: 0px 0px 30px">
+        <textarea placeholder="Description" id="description" cols="50" rows="10" style="border: 2px solid black; border-radius: 5px;"></textarea>
+    </div>
+    <div id="create-button" onclick="createTodo()" style="display: flex; background-color: #FAAA8D; height: 30px; border: 2px solid black; border-radius: 5px; align-items: center; width: 100px; justify-content: center; margin: 0 auto; cursor: pointer;">
+        Create!
+    </div>
+    <div id="list">
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

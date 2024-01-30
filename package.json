@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsdom": "^24.0.0",
+    "mongoose": "^8.1.1",
+    "require": "^0.4.4"
+  }
+}
